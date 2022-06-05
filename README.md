@@ -7,6 +7,9 @@ so i created a couple of interfaces that we're going to use to interact with all
 first a simple interface for the Dai a stable coin then another interface for wrap ether
 so on uni swap you cannot use ether directly but instead you use wrap ether.
 
+![image](https://user-images.githubusercontent.com/69389020/172056440-9a5452f5-ba0e-40cd-8b6a-0f25adfc425d.png)
+
+
 the other important contract is the router that's the contract of uni swap that we are going to use
 for trading and it has two important functions first get amounts out so it tell you how much token you're
 gonna have as output for a certain number of tokens in input and also when you want to do your swap you are
