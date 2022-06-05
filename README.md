@@ -8,6 +8,8 @@ first a simple interface for the Dai a stable coin then another interface for wr
 so on uni swap you cannot use ether directly but instead you use wrap ether.
 
 ![image](https://user-images.githubusercontent.com/69389020/172056440-9a5452f5-ba0e-40cd-8b6a-0f25adfc425d.png)
+![image](https://user-images.githubusercontent.com/69389020/172056472-4c404181-fff3-4a7a-a4e7-15b14ed7fb6e.png)
+
 
 
 the other important contract is the router that's the contract of uni swap that we are going to use
