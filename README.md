@@ -3,9 +3,7 @@
 ![image](https://user-images.githubusercontent.com/69389020/172056392-70ffec45-83fb-41eb-8686-5ce532a17a85.png)
 
 
-so i created a couple of interfaces that we're going to use to interact with all these contracts
-first a simple interface for the Dai a stable coin then another interface for wrap ether
-so on uni swap you cannot use ether directly but instead you use wrap ether.
+
 
 ![image](https://user-images.githubusercontent.com/69389020/172056440-9a5452f5-ba0e-40cd-8b6a-0f25adfc425d.png)
 ![image](https://user-images.githubusercontent.com/69389020/172056472-4c404181-fff3-4a7a-a4e7-15b14ed7fb6e.png)
@@ -31,6 +29,10 @@ ether was 2000 dai the trader ends up paying 2222 dai for his 1 eth
  the difference is what we call sleepage the more a trader uses the liquidity of a pair the bigger the slippage and the worse the price if a trader really wants to trade a very large amount the slippage becomes exponential which will act as a deterrent and guarantees that nobody uses too much of the liquidity
 
 
+
+so i created a couple of interfaces that we're going to use to interact with all these contracts
+first a simple interface for the Dai a stable coin then another interface for wrap ether
+so on uni swap you cannot use ether directly but instead you use wrap ether.
 
 the other important contract is the router that's the contract of uni swap that we are going to use
 for trading and it has two important functions first get amounts out so it tell you how much token you're
