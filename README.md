@@ -1,5 +1,8 @@
 # uniswap-trading-nodejs
 
+![image](https://user-images.githubusercontent.com/69389020/172056392-70ffec45-83fb-41eb-8686-5ce532a17a85.png)
+
+
 so i created a couple of interfaces that we're going to use to interact with all these contracts
 first a simple interface for the Dai a stable coin then another interface for wrap ether
 so on uni swap you cannot use ether directly but instead you use wrap ether.
